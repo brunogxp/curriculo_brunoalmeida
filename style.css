@@ -10,7 +10,8 @@
 }
 
 #titulo {
-    background-color: #1A2226;
+   background-color: #1A2226;
+
 }
 
 #section {
@@ -40,4 +41,8 @@
 
 .card {
     margin-bottom: 20px;
+}
+
+.icones {
+    margin: 0px 10px 0 0px;
 }
