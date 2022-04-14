@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo | Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+
+</head>
+
+<body id="corpo">
+    <!-- <header> 
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/bulma-logo.png"
+                        alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112"
+                        height="28" />
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Início
+                    </a>
+
+                    <a class="navbar-item" href="contact.html">
+                        Contato
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header> -->
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image" id="fundo-foto">
+                            <figure class="image is-4by3">
+                                <img src="./img/perfil.jpg" alt="Placeholder image" id="foto" />
+                            </figure>
+                        </div>
+                        <div class="card-content" id="section">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">Bruno H. Almeida</p>
+                                    <span class="tag is-dark is-medium">Javascript Full Stack Developer</span>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>(35) 98882-8914</p>
+                                <p>brunogxp@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-9">
+                    <div class="card" id="section">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Sobre mim
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a, similique quaerat
+                                modi debitis dolores perspiciatis quam, eius consequuntur consequatur voluptatum
+                                repellat velit. Dolorum aliquid labore fuga, nobis
+                                sit tempore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit sunt
+                                numquam, porro odit deleniti voluptatem quos voluptas? Incidunt voluptate velit minus
+                                odio suscipit facere inventore neque tenetur
+                                sint maxime.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="section">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Experiências
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <div class="columns">
+                                    <div class="column">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="./img/orus.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Analista de BI <span class="tag is-dark">Orus
+                                                Online LTDA</span>
+                                            <span class="tag is-success">Emprego Atual</span>
+                                        </p>
+                                        <p>
+                                            - Desenvolvimento de relatórios dos sistemas da empresa em Power BI.
+                                            <br>
+                                            - Criação e Administração do PowerBI Service.
+                                            <br>
+                                            - Participação no desenvolvimento de portal para exibição dos Dashboards
+                                            usando API Power BI Embedded.
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr class="linhas" />
+                                <div class="columns">
+                                    <div class="column">
+                                        <figure class="image is-128x128">
+                                            <img class="is-rounded" src="./img/crenlo.png" />
+                                        </figure>
+                                    </div>
+                                    <div class="column is-9">
+                                        <p class="title is-5">Técnico em Métodos e Processos <span
+                                                class="tag is-dark">Crenlo do Brasil</span></p>
+                                        <p class="subtitle is-6">abr/2011 - jul/2021</p>
+                                        <p>Programação de Máquinas de corte Laser, Plasma e Oxicorte. Programação das
+                                            máquinas de corte feita através do software CAD-CAM Lantek. Conhecimentos
+                                            avançados no software Lantek. Conhecimentos no sistema
+                                            ERP TOTVS Protheus, tais como: Apontamento
+                                            de produção, controle de Ordens de Produção, etc.</p>
+                                        <button class="js-modal-trigger button is-small is-danger" data-target="modal1">
+                                            Ver mais
+                                        </button>
+
+                                        <div class="modal" id="modal1">
+                                            <div class="modal-background"></div>
+                                            <div class="modal-card">
+                                                <header class="modal-card-head" id="modalexp">
+                                                    <p class="modal-card-title">Crenlo do Brasil
+                                                    </p>
+                                                    <button class="delete" aria-label="close"></button>
+                                                </header>
+                                                <section class="modal-card-body" id="modalexp">
+                                                    <p class="title is-6">Técnico em Métodos e Processos</p>
+                                                    <p>Programação de Máquinas de corte Laser, Plasma e Oxicorte.
+                                                        Programação das
+                                                        máquinas de corte feita através do software CAD-CAM Lantek.
+                                                        Conhecimentos
+                                                        avançados no software Lantek. Conhecimentos no sistema
+                                                        ERP TOTVS Protheus, tais como: Apontamento
+                                                        de produção, controle de Ordens de Produção, etc.</p>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" id="section">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                                Formação
+                            </p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <p class="title is-5">Javascript Full Stack em 8 Semanas</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a, similique
+                                    quaerat modi debitis dolores perspiciatis quam, eius consequuntur consequatur
+                                    voluptatum repellat velit. Dolorum aliquid labore fuga, nobis
+                                    sit tempore?
+                                </p>
+                            </div>
+                            <hr class="linhas" />
+                            <div class="content">
+                                <p class="title is-5">HTML + CSS Completo</p>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis a, similique
+                                    quaerat modi debitis dolores perspiciatis quam, eius consequuntur consequatur
+                                    voluptatum repellat velit. Dolorum aliquid labore fuga, nobis
+                                    sit tempore?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+* {
+    color: #ffffff;
+}
+.linhas {
+    background-color: #37474F;
+}
+
+#corpo {
+    background-color: #263238;
+}
+
+#section {
+    background-color: #222D32;
+}
+
+#section p {
+   color: #ffffff;
+}
+
+#fundo-foto {
+    background-color: #222D32;
+}
+
+
+#modalexp {
+    background-color: #222D32;
+}
+
+#modalexp p {
+    color: #ffffff;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
